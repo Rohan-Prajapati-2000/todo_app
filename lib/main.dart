@@ -44,7 +44,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     getValue();
   }
@@ -80,12 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
     Navigator.pop(context);
   }
-
-  // void deleteTask(int index) {
-  //   setState(() {
-  //     toDoList.removeAt(index);
-  //   });
-  // }
 
   @override
   Widget build(BuildContext context) {
